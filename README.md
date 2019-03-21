@@ -18,6 +18,7 @@ Then open a REPL (`lein repl`) and use e.g.:
 
 ;; Other codebase:
 :jython3 ; all 1090 Jython3 .java files: ~155s
+:rouge ; all 327 Rouge .rb files: 17s
 ```
 
 Number of files and times above were obtained using the  Clygments 2.0 on the

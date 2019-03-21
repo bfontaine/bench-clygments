@@ -10,7 +10,12 @@
    :jython3 {:path "code/jython3/"
              :language :java
              :skip #{"code/jython3/src/org/python/core/BuiltinDocs.java"}
-             :regexp #".+\.java$"}})
+             :regexp #".+\.java$"}
+
+   :rouge {:path "code/rouge/"
+           :language :ruby
+           :regexp #".+\.rb$"}
+   })
 
 (defn codebase-files
   [{:keys [path regexp skip] :as codebase}]
